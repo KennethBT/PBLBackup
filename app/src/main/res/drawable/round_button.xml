@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#fa09ad"/>
+            <corners
+                android:topLeftRadius="100dp"
+                android:topRightRadius="100dp"
+                android:bottomLeftRadius="100dp"
+                android:bottomRightRadius="100dp"
+                />
+            <gradient
+                android:angle="315"
+                android:centerX="35%"
+                android:centerColor="#ffffff"
+                android:startColor="#ffffff"
+                android:endColor="#badbf2"
+                android:type="linear"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+            <size
+                android:width="100dp"
+                android:height="100dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="#878787"
+                />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#c20586"/>
+            <corners
+                android:topLeftRadius="100dp"
+                android:topRightRadius="100dp"
+                android:bottomLeftRadius="100dp"
+                android:bottomRightRadius="100dp"
+                />
+            <gradient
+                android:angle="315"
+                android:centerX="35%"
+                android:centerColor="#ffffff"
+                android:startColor="#ffffff"
+                android:endColor="#badbf2"
+                android:type="linear"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+            <size
+                android:width="100dp"
+                android:height="100dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="#878787"
+                />
+        </shape>
+    </item>
+</selector>
